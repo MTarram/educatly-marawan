@@ -1,5 +1,6 @@
 # EducatlyTask
 
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
 This project is a responsive Angular application that fetches and displays blog posts from the [DEV.to API](https://dev.to/api/articles). It follows a modern design with pagination, error handling, and loading indicators.
 
 ## 🚀 Features
