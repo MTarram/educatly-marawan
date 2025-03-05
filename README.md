@@ -1,59 +1,55 @@
 # EducatlyTask
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+This project is a responsive Angular application that fetches and displays blog posts from the [DEV.to API](https://dev.to/api/articles). It follows a modern design with pagination, error handling, and loading indicators.
 
-## Development server
+## 🚀 Features
+- Fetch and display blog posts from DEV.to API
+- Infinite scrolling pagination (Load More button)
+- Responsive design for desktop and mobile
+- Loading indicator while fetching data
+- Error handling with retry option
+- Placeholder image for missing blog cover
 
-To start a local development server, run:
+## 📌 Setup Instructions
 
+###  Install Dependencies
+```bash
+npm install
+```
+This will install all required packages for the Angular project.
+
+### Run the Development Server
 ```bash
 ng serve
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+After running this command, open your browser and navigate to:
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
+http://localhost:4200/
 ```
+The application will automatically reload when you modify any source files.
 
-## Building
-
-To build the project run:
-
+## 🏗️ Building the Project
 ```bash
 ng build
 ```
+This will generate the production-ready build in the `dist/` directory.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
+## 🧪 Running Tests
+### Unit Tests
 ```bash
 ng test
 ```
+Runs the unit tests using Karma.
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
+### End-to-End Tests
 ```bash
 ng e2e
 ```
+Executes end-to-end tests (make sure you have a test framework configured).
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🌍 Deployment
+For deploying to services like Netlify or Vercel:
+```bash
+ng build --prod
+```
+Then upload the `dist/` folder to your hosting provider.
